@@ -1,0 +1,1 @@
+void exitHorizon (int status);

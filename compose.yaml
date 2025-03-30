@@ -1,0 +1,6 @@
+services:
+  dev:
+    build: ./docker
+    container_name: dev
+    volumes:
+      - ./horizon:/horizon
