@@ -35,7 +35,7 @@ Here we decribe all the potential commit types you may find on this repository.
 - **[INITIAL]**: Used for the absolute first commit of the repository.
 - **[PERFORMANCES]**: Used if your commit improves the performances of the code.
 - **[STYLES]**: Used if your commit changes the style of the code.
-- **[TESTS]**: Used if your commit implement tests.
+- **[TESTS]**: Used if your commit implement tests or if your commit test things.
 
 #### <u>Commit Examples</u>
 
@@ -75,7 +75,7 @@ There will be two types of comment: the **Multiple Lines Comment** and the **Sin
 
 This comment will be written inside a block with a specific aesthetic and may exist on multiple lines. Here is the template:
 
-```
+```C
 /*/---------------------\*\
 |                         |
 | Multiple Lines Comment. |
@@ -89,6 +89,6 @@ The block will match the exact size of the comment.
 
 This comment will start with a specific and stylish set of characters and exist on one single line. Here is the template:
 
-```
+```C
 //!\\ Single Line Comment.
 ```
