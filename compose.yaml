@@ -1,0 +1,7 @@
+services:
+  horizon:
+    build: ./image
+    container_name: horizon
+    tty: true
+    volumes:
+      - ./code:/code
