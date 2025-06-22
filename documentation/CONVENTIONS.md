@@ -28,6 +28,7 @@ The second element will be the **Commit Body**. There are no special rules for t
 
 Here we decribe all the potential commit types you may find on this repository.
 
+- **[COMMENTS]**: Used if your commit add comments to the code.
 - **[DIVERS]**: Used if your commit do not fit into the next types. You should avoid using this.
 - **[DOCUMENTATION]**: Used if your commit change the documentation.
 - **[FEATURES]**: Used if your commit implement a new feature.
@@ -63,7 +64,7 @@ This section contains all the rules related to the code.
 
 This subsection contains all the rules related the structure of the code.
 
-The first rule is that each line of code will not contain more than a hundred characters.
+The first rule is that each line of code will not contain more than 195 characters.
 
 ### <i>Comments</i>
 
@@ -77,9 +78,9 @@ This comment will be written inside a block with a specific aesthetic and may ex
 
 ```C
 /*/---------------------\*\
-|                         |
-| Multiple Lines Comment. |
-|                         |
+
+  Multiple Lines Comment.
+
 \*\---------------------/*/
 ```
 
@@ -87,8 +88,8 @@ The block will match the exact size of the comment.
 
 #### <u>Single Line Comment</u>
 
-This comment will start with a specific and stylish set of characters and exist on one single line. Here is the template:
+This comment will start with a specific set of characters and exist on one single line. Here is the template:
 
 ```C
-//!\\ Single Line Comment.
+// Single Line Comment.
 ```
