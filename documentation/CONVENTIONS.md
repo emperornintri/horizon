@@ -44,17 +44,17 @@ Here we give good and bad examples regarding the established rules.
 
 Good examples:
 
-- ✔️ **[INITIAL]: First commit of the repository.** 
-- ✔️ **[DOCUMENTATION]: Implement the documentation for the used conventions. #1**
-- ✔️ **[FEATURES]: Implement the most optimal print function. #2**
-- ✔️ **[DIVERS]: Modify the logo of the repository.**
+- ✔️ **[INITIAL] First commit of the repository.** 
+- ✔️ **[DOCUMENTATION] Implement the documentation for the used conventions. #1**
+- ✔️ **[FEATURES] Implement the most optimal print function. #2**
+- ✔️ **[DIVERS] Modify the logo of the repository.**
 
 Bad examples:
 
-- ✖️ **[FEAT]: Did a new cool feature for matrix multiplication.**
+- ✖️ **[FEAT] Did a new cool feature for matrix multiplication.**
 - ✖️ **Random commit.**
-- ✖️ **[Feat]: implement scaling of vectors**
-- ✖️ **[FEATURES]: Implemented the most optimal print function. #2**
+- ✖️ **[Feat] implement scaling of vectors**
+- ✖️ **[FEATURES]: Implement the most optimal print function. #2**
 
 ## Code Style
 

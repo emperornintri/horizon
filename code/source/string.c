@@ -11,10 +11,13 @@ int getStringLength(char * string)
     /*/--------------------------------------------------------------------------------------------------\*\
 
       This function takes a pointer to a string as input and returns the size of the corresponding string.
+
           - Inputs
-            name: string
-            type: char *
-            description: the string for which we want to compute the length.
+
+            - name: string
+              type: char *
+              description: the string for which we want to compute the length.
+              
           - Outputs
             type: int
             description: the length of the input string.

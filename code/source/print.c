@@ -11,10 +11,12 @@ void printString(char * string)
     /*/--------------------------------------------------------------------------------------\*\
 
       This function takes a pointer to a string as input and writes it to the standard output.
+
           - Inputs
-            name: string
-            type: char *
-            description: the string that we want to display.
+          
+            - name: string
+              type: char *
+              description: the string that we want to display.
 
     \*\--------------------------------------------------------------------------------------/*/
     int string_length = getStringLength(string); // Compute the string's length as we need it for the system call "write".
@@ -30,10 +32,11 @@ void printString(char * string)
         "movl  %1, %%edx \n" // We put the first parameter "%1", here the size of our string in edx to tell the system what is the length of the string we want to display.
         "syscall         \n" // Executes the system call.
         :
-        : 
-        "r"(string), "r"(string_length) // List of parameters, the first one is the string pointer, the second one the string's length.
-        : 
-        "rax", // Clobbered registers that we want to reset.
+        : // List of input operands.
+        "r"(string), // The first one is the string pointer.
+        "r"(string_length) // The second one the string's length.
+        : // Clobbered registers that we want to reset.
+        "rax", 
         "rdi",
         "rsi",
         "rdx"

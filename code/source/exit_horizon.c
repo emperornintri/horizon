@@ -11,10 +11,12 @@ void exitHorizon(int error_code)
     /*/------------------------------------------------------------------------\*\
 
       This function takes an error code as input and exit the program with it.
+
           - Inputs
-            name: error_code
-            type: int
-            description: the error code that we want to use to exit the program.
+          
+            - name: error_code
+              type: int
+              description: the error code that we want to use to exit the program.
 
     \*\------------------------------------------------------------------------/*/
     asm volatile
@@ -23,10 +25,10 @@ void exitHorizon(int error_code)
         "movl  %0, %%ebx \n" // We put the first parameter "%0", here a pointer to our string in rsi to tell the system where the string we want to display starts in memory.
         "syscall         \n"
         :
-        : 
-        "r"(error_code) // The parameter we pass to the system call.
-        : 
-        "rax", // Clobbered registers that we want to reset.
+        : // List of input operands.
+        "r"(error_code) // The first one is the error code we want to return.
+        : // Clobbered registers that we want to reset.
+        "rax",
         "rbx"
     );
     // Here the instruction used for the error code is "movl" because we are using integers which fit in 32 bits (4 bytes) and not 64 bits in which case we'd put "movq" and "rdx".
