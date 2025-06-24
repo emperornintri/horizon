@@ -28,15 +28,15 @@ The second element will be the **Commit Body**. There are no special rules for t
 
 Here we decribe all the potential commit types you may find on this repository.
 
-- **[COMMENTS]**: Used if your commit add comments to the code.
-- **[DIVERS]**: Used if your commit do not fit into the next types. You should avoid using this.
-- **[DOCUMENTATION]**: Used if your commit change the documentation.
-- **[FEATURES]**: Used if your commit implement a new feature.
-- **[FIXES]**: Used if your commit fixes something not working as expected.
-- **[INITIAL]**: Used for the absolute first commit of the repository.
-- **[PERFORMANCES]**: Used if your commit improves the performances of the code.
-- **[STYLES]**: Used if your commit changes the style of the code.
-- **[TESTS]**: Used if your commit implement tests or if your commit test things.
+- **[COMMENTS]** -> Used if your commit add comments to the code.
+- **[DIVERS]** -> Used if your commit do not fit into the next types. You should avoid using this.
+- **[DOCUMENTATION]** -> Used if your commit change the documentation.
+- **[FEATURES]** -> Used if your commit implement a new feature.
+- **[FIXES]** -> Used if your commit fixes something not working as expected.
+- **[INITIAL]** -> Used for the absolute first commit of the repository.
+- **[PERFORMANCES]** -> Used if your commit improves the performances of the code.
+- **[STYLES]** -> Used if your commit changes the style of the code.
+- **[TESTS]** -> Used if your commit implement tests or if your commit test things.
 
 #### <u>Commit Examples</u>
 
