@@ -1,6 +1,7 @@
 #ifndef PRINT_H
 #define PRINT_H
 
+#include <constants.h>
 #include <string.h>
 
 /*/-------------------------------------------------------\*\
@@ -10,6 +11,6 @@
 \*\-------------------------------------------------------/*/
 
 void printString(char * string);
-void printInteger(int integer);
+void printInteger(long int integer);
 
 #endif
