@@ -91,3 +91,16 @@ void printInteger(long int integer)
     printString(integer_as_string);
     return;
 }
+
+void printIntegerVector(IntegerVector vector)
+{
+  printString("[");
+  for (int index = 0; index < vector.length - 1; index++)
+  {
+    printInteger(vector.pointer[index]);
+    printString(", ");
+  }
+  printInteger(vector.pointer[vector.length - 1]);
+  printString("]\n");  
+  return;
+}

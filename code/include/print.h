@@ -3,6 +3,7 @@
 
 #include <constants.h>
 #include <string.h>
+#include <structures.h>
 
 /*/-------------------------------------------------------\*\
 
@@ -12,5 +13,6 @@
 
 void printString(char * string);
 void printInteger(long int integer);
+void printIntegerVector(IntegerVector vector);
 
 #endif
